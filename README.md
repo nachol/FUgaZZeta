@@ -2,7 +2,7 @@
 
 Web socket proxy for fuzzing.
 
-It connects to a web socket and loads a normal web site to be scaned with common tools
+It connects to a web socket and loads a normal web site to be scanned with common tools
 
     python2 .\WebSocketFUZZER.py -u  wss://websocketserver -f 1 -m msg.txt -a auth.txt
 
