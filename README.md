@@ -10,7 +10,7 @@ It connects to a web socket and loads a normal web site to be scanned with commo
     -m      Message File
     -a      Auth File for websocket
     -p      Proxy server ej 127.0.0.1:8080
-    -f      Numer of fuzzing parameters
+    -f      Number of fuzzing parameters
 
 
 auth.txt Example:
