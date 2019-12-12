@@ -45,4 +45,4 @@ Running example:
     sqlmap.exe -u "http://127.0.0.1:7000/?fuzz1=1&fuzz2=1&fuzz3=1" --level 5 --risk 3 --dbs
 
 
-![][https://raw.githubusercontent.com/nachol/FUgaZZeta/master/img.jpg]
+![](https://raw.githubusercontent.com/nachol/FUgaZZeta/master/img.jpg)
