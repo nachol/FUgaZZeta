@@ -1,0 +1,8 @@
+SEND
+destination:/exchange/appin.request
+reply-to:/temp-queue/21cc7cac-69bc-4c37-9142-922f1bf62055
+correlation-id:16f9b4ff-0ffb-4145-820e-f66959fd58d3
+[SESSION]
+
+<Request><Header><Id>[FUZZ1]</Id></Header></Request>
+
