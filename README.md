@@ -2,7 +2,7 @@
 
 Web socket proxy for fuzzing.
 
-It connects to a web socket and loads a normal web site to be scaned with common tools
+It connects to a web socket and loads a normal web site to be scanned with common tools
 
     python2 .\WebSocketFUZZER.py -u  wss://websocketserver -f 1 -m msg.txt -a auth.txt
 
@@ -10,7 +10,7 @@ It connects to a web socket and loads a normal web site to be scaned with common
     -m      Message File
     -a      Auth File for websocket
     -p      Proxy server ej 127.0.0.1:8080
-    -f      Numer of fuzzing parameters
+    -f      Number of fuzzing parameters
 
 
 auth.txt Example:
@@ -42,7 +42,7 @@ Running example:
     python2 .\WebSocketFUZZER.py -u  wss://websocketserver -f 1 -m msg.txt -a auth.txt
 
 
-    sqlmap.exe -u "http://127.0.0.1:7000/?fuzz1=1&fuzz2=1&fuzz3=1" --level 5 --risk 3 --dbs
+    sqlmap.exe -u "http://127.0.0.1:7000/?fuzz1=1" --level 5 --risk 3 --dbs
 
 
-[logo]: Change "Screenshot"
+![](https://raw.githubusercontent.com/nachol/FUgaZZeta/master/img.jpg)
